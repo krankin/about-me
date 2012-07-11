@@ -68,6 +68,7 @@ GEM
     ffi (1.0.11)
     gherkin (2.11.1)
       json (>= 1.4.6)
+    haml (3.1.6)
     heroku (2.28.11)
       heroku-api (~> 0.2.7)
       launchy (>= 0.3.2)
@@ -189,6 +190,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   cucumber-rails
   database_cleaner
+  haml
   heroku
   jquery-rails
   pg

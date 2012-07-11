@@ -1,5 +1,6 @@
 AboutMe::Application.routes.draw do
   get "me/index"
+  match "/resume" => "me#resume"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
