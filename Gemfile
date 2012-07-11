@@ -7,8 +7,13 @@ gem 'heroku'
 
 group :development, :test do
   gem 'sqlite3'
+  gem 'rspec-rails'
 end
 
+group :test do
+  gem 'cucumber-rails'
+  gem 'database_cleaner'
+end
 group :production do
   gem 'pg'
   gem 'thin'
@@ -27,8 +32,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
-
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
