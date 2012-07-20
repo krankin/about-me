@@ -1,4 +1,6 @@
 AboutMe::Application.routes.draw do
+  resources :blogs
+
   get "me/index"
   match "/resume" => "me#resume"
 
